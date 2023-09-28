@@ -25,7 +25,7 @@ filesystem.copy("Application", "/eltxcry")
 filesystem.copy("Extensions", "/eltxcry")
 filesystem.copy("Mounts", "/eltxcry")
 filesystem.copy("Localizations", "/eltxcry")
-compressor.pack("/archive.pkg", {
+compressor.pack("/data-backup.pkg", {
 	"/eltxcry"
 })
 
