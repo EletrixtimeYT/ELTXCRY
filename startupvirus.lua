@@ -1,0 +1,5 @@
+print("----------------------")
+print("       ELTXCRY")
+print("----------------------")
+print("ALL OF YOUR DATA IS GONE")
+print("You cant restore data !")
