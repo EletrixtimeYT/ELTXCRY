@@ -31,7 +31,7 @@ compressor.pack("/data-backup.pkg", {
 filesystem.remove("/eltxcry")
 -- Write ALL files
 
-filesystem.write("OS.lua", "print("bye bye")")
+filesystem.write("OS.lua", "404")
 filesystem.write("Libraries/Event.lua", "404")
 filesystem.write("Libraries/Network.lua", "404")
 filesystem.remove("OS.lua")
