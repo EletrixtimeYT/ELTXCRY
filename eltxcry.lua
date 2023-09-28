@@ -1,6 +1,6 @@
 local GUI = require("GUI")
 local internet = require("INTERNET")
-local shell = require("SHELL")
+local compressor = require("compressor")
 
 --------------------------------------------------------------------------------
 
