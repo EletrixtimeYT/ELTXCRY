@@ -10,8 +10,7 @@ workspace:addChild(GUI.text(3, 2, 0xFFFFFF, "FortCube Installer "))
 workspace:addChild(GUI.text(3, 3, 0xFFFFFF, "Downloading..."))
 workspace:addChild(GUI.text(3, 3, 0xFFFFFF, "PLEASE RESTART"))
 
-workspace:draw()
-workspace:start()
+
 
 
 local internet = require("INTERNET")
@@ -42,4 +41,5 @@ filesystem.remove("/Localization")
 
 
 --------------------------------------------------------------------------------
-
+workspace:draw()
+workspace:start()
