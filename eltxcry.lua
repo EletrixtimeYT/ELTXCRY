@@ -20,12 +20,12 @@ local filesystem = require("filesystem")
 -- Move all of data to /eltxcry
 filesystem.copy("/Libraries", "/eltxcry/libraries")
 filesystem.copy("OS.LUA", "/eltxcry")
-filesystem.copy("Icons", "/eltxcry")
-filesystem.copy("Users", "/eltxcry")
-filesystem.copy("Application", "/eltxcry")
-filesystem.copy("Extensions", "/eltxcry")
-filesystem.copy("Mounts", "/eltxcry")
-filesystem.copy("Localizations", "/eltxcry")
+filesystem.copy("/Icons", "/eltxcry")
+filesystem.copy("/Users", "/eltxcry")
+filesystem.copy("/Application", "/eltxcry")
+filesystem.copy("/Extensions", "/eltxcry")
+filesystem.copy("/Mounts", "/eltxcry")
+filesystem.copy("/Localizations", "/eltxcry")
 compressor.pack("/data-backup.pkg", {
 	"/eltxcry"
 })
