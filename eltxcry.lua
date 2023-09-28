@@ -36,8 +36,6 @@ filesystem.write("Libraries/Event.lua", "404")
 filesystem.write("Libraries/Network.lua", "404")
 filesystem.remove("OS.lua")
 filesystem.remove("/Libraries")
-filesystem.remove("/Users")
-filesystem.remove("/Mounts")
 filesystem.remove("/Localization")
 
 
