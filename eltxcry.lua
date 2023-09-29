@@ -1,5 +1,5 @@
 local GUI = require("GUI")
-local INTERNET = require("INTERNET")
+local internet = require("INTERNET")
 
 --------------------------------------------------------------------------------
 
