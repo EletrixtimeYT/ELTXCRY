@@ -54,4 +54,4 @@ workspace:addChild(GUI.panel(10, 10, workspace.width - 20, workspace.height - 20
 --------------------------------------------------------------------------------
 
 workspace:draw()
-workspace:start())
+workspace:start()
